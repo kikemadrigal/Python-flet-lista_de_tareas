@@ -1,9 +1,2 @@
-# A flet-otro Flet app
+# Empquetando a Android
 
-An example of a minimal Flet app.
-
-To run the app:
-
-```
-flet run [app_directory]
-```

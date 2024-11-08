@@ -27,8 +27,8 @@ goto:eof
         rem python3 -m venv .venv
         python -m venv venv
     )  
-    rem si no estás en un entorno virtual
     if not defined VIRTUAL_ENV (
+        rem si no estás en un entorno virtual
         rem source .venv/bin/activate
         call venv\Scripts\activate
         rem para salir del venv escribe deactivate
